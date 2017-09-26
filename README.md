@@ -6,7 +6,7 @@ You can use Azure SDK for Python to send messages using HTTPS.
 However, there is no official Python client which uses AMQP protocol.
 It also doesn't work with Qpid Proton Python.
 
-That's why I am using Java client to send messages EventHub from Python :)
+That's why I am using Java client to send messages to EventHub from Python :)
 
 It uses [PyJNIus](https://github.com/kivy/pyjnius) to call Java.
 
